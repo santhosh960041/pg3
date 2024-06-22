@@ -4,7 +4,7 @@ stages {
     stage('Checkout') {
        steps {
       // Checkout code from Git repository
-      git url: 'https://https://github.com/santhosh960041/pg3/edit/main/pipeline', branch: 'main'
+      git url: 'https://https://https://github.com/santhosh960041/pg3.git', branch: 'main'
         	}
     	}
    stage('Build') {
